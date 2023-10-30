@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+class A {
+   private:
+   int num1, num2 , num3 ,sum;
+   public:
+   A() {
+      num1 = 1;
+      num2 = 10;
+      num3 =12;
+      sum =num3-num2;
+   }
+   void display() {
+      cout<<"profit of selling 1 kg plastic= "<< sum <<endl;
+   }
+};
+int main() {
+   A obj;
+   obj.display();
+   return 0;
+}
