@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+class A {
+   private:
+   int num1, num2,sum ;
+   public:
+   A(int n1, int n2) {
+      num1 = n1;
+      num2 = n2;
+      sum=n1*n2;
+   }
+   void display() {
+      cout<<"the no of students  cary in three buses:"<< sum <<endl;
+   }
+};
+int main() {
+   A obj(48,3);
+   obj.display();
+   return 0;
+}
